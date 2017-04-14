@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PokEtna</string>
+    <string name="title_activity_scrolling">List des Pokémons</string>
+    <string name="title_activity_scrolling1">List des Berrys</string>
+    <string name="title_activity_scrolling2">List des Items</string>
+    <string name="title_activity_scrolling3">Localisation</string>
+    <string name="action_settings">Settings</string>
+    <string name="LoLo">Tet pour loolo</string>
+    <string name="list_pokemon">Liste de Pokémon.\n\n
+    dragofeu\n
+    tortank\n
+    ma bite\n
+    beuhrizard
+    </string>
+    <string name="list_berry">
+        List Berry.\n\n
+        papaille\n
+        goyave\n
+        tuberculose\n
+        lol
+    </string>
+    <string name="list_item">
+        List Item.\n\n
+        velo\n
+        tuyaux\n
+        cancer\n
+        manette
+    </string>
+    <string name="list_localisation">
+        List Localisation.\n\n
+        Tahity\n
+        Piras\n
+        Midrad\n
+        Losbinne\n
+        Lexumbeuro\n
+        Lendro\n
+        Now yerk
+    </string>
+</resources>

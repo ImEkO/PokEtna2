@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/e586cf5b9bd66c148e52161a2eb944b10a5b0ce6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_87dd3bbde42ae7e12b4eba85341065b8cace2a7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_0c44fff968ae0eedc186826b86e7b36d3065734b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b69b65b04ba629ddd9c5b5e8c2b14e522b6f47b">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_92ff89ea9ee604fce4236869811ab4c8edadf9c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/32a8da93b8fae04367d658aa306c9035c76a162f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f2fe1756d03c902a98848c818a59147d487d21d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/fb4c9c77995a01b07f5f413f1cad2a355d336d3b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b8843a61ba2e39ca7a99b407a6c9738e1a8a26e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/8618dc4df840f598ce94ff27be8dffd2757cdc7e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3ab953fae6879e211c0196a06a7325644e9b433/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_a9bb525cb079e6a22c12f0b95ffbc3632a7b5980/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/50256ce7a8c3ef6bbf027509061e1ac9edf02f01/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_099f076622ac3639b0be9f53d1a35d76132e691e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/1a317b7f8c02567d152dcd90bb72ba19282872b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_22c352d9054142fd00253fff42eb7bbc3862036a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/20715b2f622d8f0dbc2cb7f3b10d2531eb22a15a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_26e26e91a90ddcb528fc9ac544a4ae25cd3588a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/26e4b40a274955e6da70d291197ac7a15e248890/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ffd86ca361afa8d75daa1f45ef9dabff289b6de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/f115c8be3c54ccdf18bc1ec3397b7eab3ab4a5bf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_550669e945645481e3efc26dd4e095b38b854860/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/d80e2607b96238ec978bf229c2995c9fddc7b576/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_015b195fdac2b282cefde39087fac8395b7dfa52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4cdbb3d375a378b095d2f8cf23be44632bdfbf82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/80e9c0c4f0e398a3090be33c8ca3e169dbe6ac5e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a228b9eb60e9f33a55c499a9d50703ea3d28139d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/48c8d721dd021d3c6abbd547d1777c8ac2fa7632/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c6274e4ee1acff55b645cd50b65a7c3d6db20f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/stevenolivier/.android/build-cache/4b10ff1397e18bf9946b5b95c6c2d7c13e2dac5b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_095e0ac07c2a9a8cb4a4e5f6bba204b6de86c7d2/classes.dex" />
+    </item>
+
+</items>
