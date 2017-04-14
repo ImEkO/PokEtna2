@@ -6,23 +6,26 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492174389867"
+    timestamp="1492177487496"
     token="1391163922413517314"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1705" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="99" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
+    <artifact
+        location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
@@ -70,16 +73,19 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492174178731"
+        timestamp="1492176047336"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1492177487496"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1492174389867"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
