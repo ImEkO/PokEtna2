@@ -85,6 +85,10 @@ ADDED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/Andro
 		ADDED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/AndroidManifest.xml:34:13-56
 	android:name
 		ADDED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/AndroidManifest.xml:32:13-47
+uses-permission#android.permission.INTERNET
+ADDED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/AndroidManifest.xml:36:22-64
 uses-sdk
 INJECTED from /Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/stevenolivier/.android/build-cache/1a317b7f8c02567d152dcd90bb72ba19282872b7/output/AndroidManifest.xml:5:5-7:41
