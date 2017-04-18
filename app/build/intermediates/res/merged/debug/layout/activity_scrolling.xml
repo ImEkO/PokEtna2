@@ -17,7 +17,7 @@
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="190dp"
             android:fitsSystemWindows="true"
             app:contentScrim="@color/colorPrimary"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -32,16 +32,20 @@
         </android.support.design.widget.CollapsingToolbarLayout>
     </android.support.design.widget.AppBarLayout>
 
-    <include layout="@layout/content_scrolling1" />
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
-        android:layout_width="85dp"
-        android:layout_height="79dp"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
         android:layout_margin="@dimen/fab_margin"
         app:backgroundTint="@color/colorPrimary"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end"
+        app:rippleColor="@color/colorPrimary"
         app:srcCompat="@drawable/pokeball" />
+
+    <include
+        android:id="@+id/test"
+        layout="@layout/content_scrolling"
+        android:layout_weight="1" />
 
 </android.support.design.widget.CoordinatorLayout>

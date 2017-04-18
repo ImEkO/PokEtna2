@@ -6,23 +6,32 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1492504909649"
+    timestamp="1492510276945"
     token="1391163922413517314"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="849" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="92" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
 
+    <artifact
+        location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/outputs/apk/app-debug.apk"
         type="SPLIT_MAIN" />
@@ -70,8 +79,17 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1492504909649"
+        timestamp="1492510276945"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />

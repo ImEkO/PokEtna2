@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Layout;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -28,6 +30,7 @@ public class ScrollingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        NestedScrollView views = (NestedScrollView) findViewById(R.id.views);
         setSupportActionBar(toolbar);
         URL url;
         HttpURLConnection urlConnection = null;
@@ -55,7 +58,7 @@ public class ScrollingActivity extends AppCompatActivity {
                 button.setText(array.getJSONObject(i).getString("name"));
                 button.setTextSize(20);
                 button.setGravity(Gravity.CENTER);
-                //this.addView(button);
+                views.addView(button);
             }
             Log.d("Toute es info", "valeur : " + currents);
             Log.d("Seulement les noms", "valeur : " + list);

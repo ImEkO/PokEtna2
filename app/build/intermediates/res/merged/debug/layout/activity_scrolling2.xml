@@ -36,14 +36,14 @@
         android:id="@+id/include" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="match_parent"
-        android:layout_height="81dp"
-        android:layout_margin="@dimen/fab_margin"
-        app:backgroundTint="@color/colorPrimary"
-        app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|end"
-        app:rippleColor="@color/colorPrimary"
-        app:srcCompat="@drawable/items" />
+    android:id="@+id/fab"
+    android:layout_width="match_parent"
+    android:layout_height="81dp"
+    android:layout_margin="@dimen/fab_margin"
+    app:backgroundTint="@color/colorPrimary"
+    app:layout_anchor="@id/app_bar"
+    app:layout_anchorGravity="bottom|end"
+    app:rippleColor="@color/colorPrimary"
+    app:srcCompat="@drawable/items" />
 
 </android.support.design.widget.CoordinatorLayout>
