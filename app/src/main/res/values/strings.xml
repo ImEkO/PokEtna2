@@ -1,9 +1,8 @@
 <resources>
-    <string name="app_name">PokEtna</string>
-    <string name="title_activity_scrolling">List des Pokémons</string>
-    <string name="title_activity_scrolling1">List des Berrys</string>
-    <string name="title_activity_scrolling2">List des Items</string>
-    <string name="title_activity_scrolling3">Localisation</string>
+    <string name="app_name">Le Pokedex de la Prep Etna</string>
+    <string name="title_activity_scrolling">Liste des Pokémons</string>
+    <string name="title_activity_scrolling1">Liste des Berrys</string>
+    <string name="title_activity_scrolling2">Liste des Items</string>
     <string name="action_settings">Settings</string>
     <string name="LoLo">Tet pour loolo</string>
     <string name="list_pokemon">Liste de Pokémon.\n\n

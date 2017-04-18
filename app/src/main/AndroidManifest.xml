@@ -25,10 +25,6 @@
             android:label="@string/title_activity_scrolling2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ScrollingActivity3"
-            android:label="@string/title_activity_scrolling3"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".ScrollingActivity1"
             android:label="@string/title_activity_scrolling1"
             android:theme="@style/AppTheme.NoActionBar"></activity>

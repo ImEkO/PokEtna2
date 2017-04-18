@@ -16,7 +16,6 @@ public class Mainvue extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.pokemon);
         Button btn1 = (Button) findViewById(R.id.berry);
         Button btn2 = (Button) findViewById(R.id.item);
-        Button btn3 = (Button) findViewById(R.id.localisation);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -36,13 +35,6 @@ public class Mainvue extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Mainvue.this, ScrollingActivity2.class));
-            }
-
-        });
-        btn3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Mainvue.this, ScrollingActivity3.class));
             }
 
         });

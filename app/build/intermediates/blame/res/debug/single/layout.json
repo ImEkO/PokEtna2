@@ -36,10 +36,6 @@
         "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/content_scrolling3.xml",
-        "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/layout/content_scrolling3.xml"
-    },
-    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/notification_template_part_time.xml"
     },
@@ -230,9 +226,5 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/activity_scrolling3.xml",
-        "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/layout/activity_scrolling3.xml"
     }
 ]
