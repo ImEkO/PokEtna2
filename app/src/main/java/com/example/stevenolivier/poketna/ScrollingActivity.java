@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.GridView;
+import android.widget.LinearLayout;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -30,7 +32,7 @@ public class ScrollingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        NestedScrollView views = (NestedScrollView) findViewById(R.id.views);
+        LinearLayout layout = (LinearLayout) findViewById(R.id.test);
         setSupportActionBar(toolbar);
         URL url;
         HttpURLConnection urlConnection = null;
@@ -58,9 +60,9 @@ public class ScrollingActivity extends AppCompatActivity {
                 button.setText(array.getJSONObject(i).getString("name"));
                 button.setTextSize(20);
                 button.setGravity(Gravity.CENTER);
-                views.addView(button);
+                layout.addView(button);
             }
-            Log.d("Toute es info", "valeur : " + currents);
+            Log.d("Toutes les infos", "valeur : " + currents);
             Log.d("Seulement les noms", "valeur : " + list);
             }
             catch (Exception e) {

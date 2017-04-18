@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",

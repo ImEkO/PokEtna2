@@ -1,7 +1,19 @@
 [
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/menu/menu_scrolling.xml"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/menu/menu_scrolling.xml",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/menu/menu_scrolling.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/menu/menu_scrolling_activity1.xml",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/menu/menu_scrolling_activity1.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/menu/menu_scrolling_activity3.xml",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/menu/menu_scrolling_activity3.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/menu/menu_scrolling_activity2.xml",
@@ -14,5 +26,9 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/menu/menu_scrolling_activity3.xml",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/menu/menu_scrolling_activity3.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/menu/menu_scrolling_activity2.xml",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/menu/menu_scrolling_activity2.xml"
     }
 ]

@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",

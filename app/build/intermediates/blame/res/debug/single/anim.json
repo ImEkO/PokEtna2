@@ -1,15 +1,7 @@
 [
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/anim/design_snackbar_out.xml"
-    },
-    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/anim/design_fab_in.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
@@ -20,8 +12,20 @@
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/juliettequ/.android/build-cache/dc6259fe922799e2c5b2bd330c8b86dcc25e3a46/output/res/anim/design_fab_out.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
@@ -30,6 +34,18 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
@@ -44,15 +60,55 @@
         "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/anim/design_snackbar_in.xml"
     },
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/juliettequ/.android/build-cache/dc6259fe922799e2c5b2bd330c8b86dcc25e3a46/output/res/anim/design_snackbar_out.xml"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/juliettequ/.android/build-cache/dc6259fe922799e2c5b2bd330c8b86dcc25e3a46/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/juliettequ/.android/build-cache/dc6259fe922799e2c5b2bd330c8b86dcc25e3a46/output/res/anim/design_fab_in.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/anim/abc_slide_out_top.xml"
     }
 ]

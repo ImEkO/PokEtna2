@@ -2,5 +2,9 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/juliettequ/.android/build-cache/dc6259fe922799e2c5b2bd330c8b86dcc25e3a46/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]
