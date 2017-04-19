@@ -13,25 +13,25 @@ public class Mainvue extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainvue);
 
-        Button btn = (Button) findViewById(R.id.pokemon);
-        Button btn1 = (Button) findViewById(R.id.berry);
-        Button btn2 = (Button) findViewById(R.id.item);
+        Button btnPokemons = (Button) findViewById(R.id.pokemon);
+        Button btnBerries = (Button) findViewById(R.id.berry);
+        Button btnItems = (Button) findViewById(R.id.item);
 
-        btn.setOnClickListener(new View.OnClickListener() {
+        btnPokemons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Mainvue.this, ScrollingActivity.class));
             }
 
         });
-        btn1.setOnClickListener(new View.OnClickListener() {
+        btnBerries.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Mainvue.this, ScrollingActivity1.class));
             }
 
         });
-        btn2.setOnClickListener(new View.OnClickListener() {
+        btnItems.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(Mainvue.this, ScrollingActivity2.class));
