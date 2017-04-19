@@ -12,12 +12,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/stevenolivier/.android/build-cache/329edc1f097de23865c769e918092e8ded3784b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_c0bbe1a94c92771a17faf99b59fad6feac10615d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/stevenolivier/.android/build-cache/9ec1bc3f33d14ac225306f64ab047476eb975348/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
         <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_d174ae364ed7b40465ce6da2e2dc8568ed9f4608.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stevenolivier/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0c44fff968ae0eedc186826b86e7b36d3065734b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/stevenolivier/.android/build-cache/1a317b7f8c02567d152dcd90bb72ba19282872b7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_22c352d9054142fd00253fff42eb7bbc3862036a.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/stevenolivier/.android/build-cache/bb33754d0eb69551358b0fb882aa0a350fc2709d/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,57 +75,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/stevenolivier/.android/build-cache/40d03b36958289f3172828600717270d6fb27071/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_1ccf57a35bca0dfee3e6c0ff12d66e5c9b7de8f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
         <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_9da0448556ea3e9ee05b7afc6c106f6cba4945e3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/stevenolivier/.android/build-cache/3f2ef846ad4be23c8e9a4cfd1488e946da34986b/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_7babacc853b7f17bf79ffbbb414f5aea1b744aa3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/stevenolivier/.android/build-cache/f03490493fad2f23c6c8def08ab7ae542153d5ba/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_e459b4f2c09b7dcf18d89cdff8cceabf3e71329a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/stevenolivier/.android/build-cache/329edc1f097de23865c769e918092e8ded3784b4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_c0bbe1a94c92771a17faf99b59fad6feac10615d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/stevenolivier/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0c44fff968ae0eedc186826b86e7b36d3065734b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/stevenolivier/.android/build-cache/1a317b7f8c02567d152dcd90bb72ba19282872b7/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_22c352d9054142fd00253fff42eb7bbc3862036a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -126,6 +117,24 @@
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
         <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_b6264f2956dc4c07d04bcb86438678a806d3f71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stevenolivier/.android/build-cache/3f2ef846ad4be23c8e9a4cfd1488e946da34986b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_7babacc853b7f17bf79ffbbb414f5aea1b744aa3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/stevenolivier/.android/build-cache/f03490493fad2f23c6c8def08ab7ae542153d5ba/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/classes_e459b4f2c09b7dcf18d89cdff8cceabf3e71329a.jar" />
     </item>
     <item
         is-multidex="false"
