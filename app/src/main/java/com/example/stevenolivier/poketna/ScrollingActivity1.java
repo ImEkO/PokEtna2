@@ -1,5 +1,8 @@
 package com.example.stevenolivier.poketna;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import org.json.JSONObject;
 import java.io.InputStream;
@@ -22,12 +26,18 @@ public class ScrollingActivity1 extends AppCompatActivity {
                 JSONObject array = obj.getJSONObject("sprites");
                 if (!array.isNull("default")) {
                     String urlBerryImg = array.getString("default");
-                    Log.d(urlBerryImg, String.valueOf(urlBerryImg.contains("-berry")));
+                    String berryName = obj.getString("name");
+                    Log.d(urlBerry, urlBerryImg + " -> " + String.valueOf(urlBerryImg.contains("-berry")));
                     if (urlBerryImg.contains("-berry")) {
+                        URL urlImage = new URL(urlBerryImg);
+                        Bitmap bitmap = BitmapFactory.decodeStream(urlImage.openConnection().getInputStream());
+                        ImageView imageView = new ImageView(this);
                         Button button = new Button(this);
-                        button.setText(urlBerryImg);
+                        imageView.setBackground(new BitmapDrawable(getResources(),bitmap));
+                        button.setText(berryName.replace("-", " "));
                         button.setTextSize(20);
                         button.setGravity(Gravity.CENTER);
+                        layout.addView(imageView);
                         layout.addView(button);
                     }
                 }
@@ -73,9 +83,10 @@ public class ScrollingActivity1 extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         HttpURLConnection urlConnection = null;
-        for (int j = 1; j <= 746; j = j + 1) {
-            String urlBerry = "http://pokeapi.co/api/v2/item/" + j + "/";
-            setButtonsBerries(urlConnection, urlBerry, layout);
+        //for (int j = 1; j <= 746; j = j + 1) {
+        for (int j = 130; j <= 140; j = j + 1) {
+                String urlBerry = "http://pokeapi.co/api/v2/item/" + j + "/";
+                setButtonsBerries(urlConnection, urlBerry, layout);
         }
     }
 }
