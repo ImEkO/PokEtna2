@@ -1,5 +1,8 @@
 package com.example.stevenolivier.poketna;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +10,11 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Gravity;
 import android.widget.Button;
-import android.widget.LinearLayout;
+import android.widget.GridLayout;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.TextView;
+
 import org.json.JSONObject;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -16,19 +23,26 @@ import java.net.URL;
 
 public class ScrollingActivity1 extends AppCompatActivity {
 
-    public void getUrlImageBerry(JSONObject obj, LinearLayout layout, HttpURLConnection urlConnection, String urlBerry) {
+    public void getUrlImageBerry(JSONObject obj, GridLayout layout, HttpURLConnection urlConnection, String urlBerry) {
         try {
             if (!obj.isNull("sprites")) {
                 JSONObject array = obj.getJSONObject("sprites");
                 if (!array.isNull("default")) {
                     String urlBerryImg = array.getString("default");
-                    Log.d(urlBerryImg, String.valueOf(urlBerryImg.contains("-berry")));
+                    String berryName = obj.getString("name").replace("-", " ");
+                    Log.d(urlBerry, urlBerryImg + " -> " + String.valueOf(urlBerryImg.contains("-berry")));
                     if (urlBerryImg.contains("-berry")) {
+                        URL urlImage = new URL(urlBerryImg);
+                        Bitmap bitmap = BitmapFactory.decodeStream(urlImage.openConnection().getInputStream());
+
+                        TextView text = new TextView(this);
+                        text.setText(berryName.replace("-", " "));
+
                         Button button = new Button(this);
-                        button.setText(urlBerryImg);
-                        button.setTextSize(20);
-                        button.setGravity(Gravity.CENTER);
+                        button.setBackground(new BitmapDrawable(getResources(),bitmap));
+
                         layout.addView(button);
+                        //layout.addView(text);
                     }
                 }
             }
@@ -37,7 +51,7 @@ public class ScrollingActivity1 extends AppCompatActivity {
         }
     }
 
-    public void setButtonsBerries(HttpURLConnection urlConnection, String urlBerry, LinearLayout layout) {
+    public void setButtonsBerries(HttpURLConnection urlConnection, String urlBerry, GridLayout layout) {
         try {
             URL url = new URL(urlBerry);
             urlConnection = (HttpURLConnection) url.openConnection();
@@ -68,14 +82,15 @@ public class ScrollingActivity1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scrolling1);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        LinearLayout layout = (LinearLayout) findViewById(R.id.test);
+        GridLayout layout = (GridLayout) findViewById(R.id.test);
         setSupportActionBar(toolbar);
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
         HttpURLConnection urlConnection = null;
-        for (int j = 1; j <= 746; j = j + 1) {
-            String urlBerry = "http://pokeapi.co/api/v2/item/" + j + "/";
-            setButtonsBerries(urlConnection, urlBerry, layout);
+        //for (int j = 1; j <= 746; j = j + 1) {
+        for (int j = 130; j <= 140; j = j + 1) {
+                String urlBerry = "http://pokeapi.co/api/v2/item/" + j + "/";
+                setButtonsBerries(urlConnection, urlBerry, layout);
         }
     }
 }
