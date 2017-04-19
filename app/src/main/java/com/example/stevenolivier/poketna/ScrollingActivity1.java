@@ -32,7 +32,7 @@ public class ScrollingActivity1 extends AppCompatActivity {
                     String berryName = obj.getString("name").replace("-", " ");
                     Log.d(urlBerry, urlBerryImg + " -> " + String.valueOf(urlBerryImg.contains("-berry")));
                     if (urlBerryImg.contains("-berry")) {
-                        URL urlImage = new URL(urlBerryImg);
+                        URL urlImage nhyè(gthyèo!pçuo§(u§yefr(u§ioyji!(grut§ngku)))) new URL(urlBerryImg);
                         Bitmap bitmap = BitmapFactory.decodeStream(urlImage.openConnection().getInputStream());
 
                         TextView text = new TextView(this);
