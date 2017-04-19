@@ -23,7 +23,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScrollingActivity1 extends AppCompatActivity {
-
+/*
     public String getBerryImageUrl(JSONArray array) {
         try {
             for (int i = 0; i < array.length(); i++) {
@@ -66,7 +66,7 @@ public class ScrollingActivity1 extends AppCompatActivity {
             for (int i = 0; i < array.length(); i++) {
                 if (array.getJSONObject(i).getString("name").contains("-berry")) {
                     String berryUrl = getImageOfBerry(array.getJSONObject(i).getString("url"));
-                    if (berryUrl != null) {
+                    if (berryUrl.equals(null)) {
                         Button button = new Button(this);
                         //button.setText(array.getJSONObject(i).getString("name").replace("-", " "));
                         button.setText(berryUrl);
@@ -116,7 +116,7 @@ public class ScrollingActivity1 extends AppCompatActivity {
                 }
             }
     }
-
+*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -124,6 +124,47 @@ public class ScrollingActivity1 extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         LinearLayout layout = (LinearLayout) findViewById(R.id.test);
         setSupportActionBar(toolbar);
-        setListOfBerries(layout);
+        URL url;
+        HttpURLConnection urlConnection = null;
+        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+        StrictMode.setThreadPolicy(policy);
+        String currents;
+        for (int j = 1; j <= 746; j = j + 1) {
+            String urlBerry = "http://pokeapi.co/api/v2/item/" + j + "/";
+            try {
+                url = new URL(urlBerry);
+                urlConnection = (HttpURLConnection) url.openConnection();
+                InputStream in = urlConnection.getInputStream();
+                InputStreamReader isw = new InputStreamReader(in);
+                currents = " ";
+                int data = isw.read();
+                while (data != -1) {
+                    char current = (char) data;
+                    data = isw.read();
+                    currents += current;
+                }
+                JSONObject obj = new JSONObject(currents);
+                if (!obj.isNull("sprites")) {
+                    JSONObject array = obj.getJSONObject("sprites");
+                    if (!array.isNull("default")) {
+                        String urlBerryImg = array.getString("default");
+                        Log.d(urlBerryImg, String.valueOf(urlBerryImg.contains("-berry")));
+                        if (urlBerryImg.contains("-berry")) {
+                            Button button = new Button(this);
+                            button.setText(urlBerryImg);
+                            button.setTextSize(20);
+                            button.setGravity(Gravity.CENTER);
+                            layout.addView(button);
+                        }
+                    }
+                }
+            } catch (Exception e) {
+                Log.d("ERROR sur l'url -> " + urlBerry, "Problème subvenu lors de la récupération de l'image du berry !");
+            } finally {
+                if (urlConnection != null) {
+                    urlConnection.disconnect();
+                }
+            }
+        }
     }
 }
