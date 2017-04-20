@@ -111,6 +111,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/stevenolivier/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_b4454b3dfa6cfdcc8cfff3e3ccea051b28377a64.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/stevenolivier/.android/build-cache/47650d3ba98567b2e51e7f796a2e1dabb46e5db2/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
