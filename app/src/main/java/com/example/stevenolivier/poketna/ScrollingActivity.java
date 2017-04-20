@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.os.StrictMode;
 
+import android.provider.ContactsContract;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -50,96 +51,59 @@ public class ScrollingActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         layout = (LinearLayout) findViewById(R.id.test);
-        onCreatepb();
-    }
-
-    protected void onCreatepb() {
-        /*URL url;
-        HttpURLConnection urlConnection = null;
-        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        StrictMode.setThreadPolicy(policy);
-        String currents;
-        try {
-            img = new ImageView(this);
-            url = new URL("http://pokeapi.co/api/v2/pokemon/");
-            urlConnection = (HttpURLConnection) url.openConnection();
-            InputStream in = urlConnection.getInputStream();
-            InputStreamReader isw = new InputStreamReader(in);
-            currents = " ";
-            int data = isw.read();
-            while (data != -1) {
-                char current = (char) data;
-                data = isw.read();
-                currents += current;
-            }
-            JSONObject obj = new JSONObject(currents);
-            List<String> list = new ArrayList<String>();
-            JSONArray array = obj.getJSONArray("results");
-            for (int i = 0; i < array.length(); i++) {
-                list.add(array.getJSONObject(i).getString("name"));
-                //button.setText(array.getJSONObject(i).getString("name"));
-                //button.setTextSize(20);
-                //button.setGravity(Gravity.CENTER);*/
-        while (i <= 20) {
-            Img();
-            i++;
-        }
-                //layout.addView(button);
-            /*}
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            if (urlConnection != null) {
-                urlConnection.disconnect();
-            }
-        }*/
+        Img();
     }
 
     protected void Img() {
         RequestQueue queue = Volley.newRequestQueue(this);
         String url = "http://pokeapi.co/api/v2/pokemon/" + i;
-        //System.out.println("Le nom : " + nom + "\n");
+        System.out.println(url);
         System.out.println("icii");
         System.out.println(i);
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
-                new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            System.out.println("la");
-                            JSONObject obej = new JSONObject(response);
-                            JSONObject array = (JSONObject) obej.get("sprites");
-                            JSONArray aa = (JSONArray) obej.get("forms");
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            try {
+                                System.out.println("la");
+                                JSONObject obej = new JSONObject(response);
+                                JSONObject array = (JSONObject) obej.get("sprites");
+                                JSONArray aa = (JSONArray) obej.get("forms");
 
-                            System.out.println("Le nom : " + array.getString("front_default") + "\n");
-                            System.out.println("Le Prenom : " + aa.getJSONObject(0).getString("name") + "\n");
+                                System.out.println("L'image " + array.getString("front_default") + "\n");
+                                System.out.println("Le Nom : " + aa.getJSONObject(0).getString("name") + "\n");
 
-                            urlimgp = array.getString("front_default");
-
-                            System.out.println("1" + urlimgp);
-                            URL urlimg = new URL(urlimgp);
-                            //Bitmap image = BitmapFactory.decodeStream(urlimg.openConnection().getInputStream());
-                            //img.setImageBitmap(image);
-                            //img.setBackground(new BitmapDrawable(getResources(), image));
-                            //button.setText(aa.getJSONObject(0).getString("name"));
-                            //button.setTextSize(20);
-                            //button.setGravity(Gravity.CENTER);
-                            //layout.addView(img);
-                            //layout.addView(button);
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        } catch (MalformedURLException e) {
-                            e.printStackTrace();
-                        } catch (IOException e) {
-                            e.printStackTrace();
+                                urlimgp = array.getString("front_default");
+                                System.out.println("re L'image" + urlimgp);
+                                URL urlimg = new URL(urlimgp);
+                                //Bitmap image = BitmapFactory.decodeStream(urlimg.openConnection().getInputStream());
+                                //img.setImageBitmap(image);
+                                //img.setBackground(new BitmapDrawable(getResources(), image));
+                                //button.setText(aa.getJSONObject(0).getString("name"));
+                                //button.setTextSize(20);
+                                //button.setGravity(Gravity.CENTER);
+                                //layout.addView(img);
+                                //layout.addView(button);
+                                if (i <= 20 ) {
+                                    i++;
+                                    Img();
+                                }
+                                } catch (JSONException e) {
+                                e.printStackTrace();
+                            } catch (MalformedURLException e) {
+                                e.printStackTrace();
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
                         }
-                    }
-                }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                System.out.println("error Listerner");
-            }
-        });
-        queue.add(stringRequest);
+                    }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    System.out.println("error Listerner");
+                }
+            });
+            queue.add(stringRequest);
+        //}
     }
+
 }
