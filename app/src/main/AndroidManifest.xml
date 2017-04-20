@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.stevenolivier.poketna">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,7 +29,8 @@
         <activity
             android:name=".ScrollingActivity1"
             android:label="@string/title_activity_scrolling1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".testintent" />
     </application>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

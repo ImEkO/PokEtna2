@@ -1,9 +1,13 @@
 package com.example.stevenolivier.poketna;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -33,6 +37,13 @@ public class ScrollingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_scrolling);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ScrollingActivity.this, Mainvue.class));
+            }
+        });
         layout = (LinearLayout) findViewById(R.id.layout);
         getInfoPokemon();
     }
@@ -48,17 +59,35 @@ public class ScrollingActivity extends AppCompatActivity {
                             JSONObject jsonObject = new JSONObject(response);
                             JSONObject arraySprites = (JSONObject) jsonObject.get("sprites");
                             JSONArray arrayForms = (JSONArray) jsonObject.get("forms");
+                            //Debug
                             System.out.println("POKEMON n°" + pokemon + " : " + arrayForms.getJSONObject(0).getString("name") + " -> " + arraySprites.getString("front_default"));
-                            String namePokemon = arrayForms.getJSONObject(0).getString("name");
+
+                            final String namePokemon = arrayForms.getJSONObject(0).getString("name");
+                            final String urlImagepokemon = arraySprites.getString("front_default");
                             urlImagePokemon = arraySprites.getString("front_default");
                             button = new Button(ScrollingActivity.this);
                             image = new ImageView(ScrollingActivity.this);
+                            //Creation de l'image
                             Picasso.with(getApplicationContext()).load(urlImagePokemon).resize(500, 500).into(image);
                             button.setText(namePokemon);
                             button.setTextSize(20);
                             button.setGravity(Gravity.CENTER);
+                            button.setId(R.id.pokemon);
+                            //Action du bouton pour info du pokemon specifier
+                            button.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+                                    Intent i = new Intent(ScrollingActivity.this, testintent.class);
+                                    i.putExtra("nom", namePokemon);
+                                    i.putExtra("image", urlImagepokemon);
+                                    startActivity(i);
+                                }
+
+                            });
+                            //Envoi des boutons et images sur le view
                             layout.addView(image);
                             layout.addView(button);
+                            //Recursivité car requêtes Async, afin que la requête boucle
                             if (pokemon < 10) {
                                 pokemon++;
                                 getInfoPokemon();
