@@ -48,7 +48,7 @@
         android:layout_height="500dp"
         android:layout_gravity="bottom">
         <LinearLayout
-            android:id="@+id/test"
+            android:id="@+id/layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical" />

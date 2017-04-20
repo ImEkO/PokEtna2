@@ -52,10 +52,6 @@
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/content_scrolling.xml",
-        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/layout/content_scrolling.xml"
-    },
-    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/abc_search_view.xml"
     },
@@ -136,12 +132,12 @@
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/activity_scrolling2.xml",
@@ -168,12 +164,12 @@
         "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/layout/design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
@@ -336,10 +332,6 @@
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/layout/activity_scrolling2.xml"
     },
     {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/content_scrolling1.xml",
-        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/layout/content_scrolling1.xml"
-    },
-    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/abc_action_bar_up_container.xml"
     },
@@ -370,10 +362,6 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/content_scrolling2.xml",
-        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/layout/content_scrolling2.xml"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",

@@ -36,14 +36,11 @@
         android:layout_width="match_parent"
         android:layout_height="500dp"
         android:layout_gravity="bottom">
-
-        <GridLayout
-            android:id="@+id/test"
+        <LinearLayout
+            android:id="@+id/layout1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="fill"
-            android:columnCount="3"
-            android:orientation="horizontal" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
     </ScrollView>
 
     <android.support.design.widget.FloatingActionButton
