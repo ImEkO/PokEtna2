@@ -81,13 +81,18 @@ public class ScrollingActivity extends AppCompatActivity {
                                 URL urlimg = new URL(urlimgp);
                                 button = new Button(ScrollingActivity.this);
                                 //Bitmap image = BitmapFactory.decodeStream(urlimg.openConnection().getInputStream());
-                                //Picasso.with(getApplicationContext()).load(urlimgp).into(img);
+                                System.out.println(getApplicationContext());
+                                System.out.println(urlimgp);
+                                System.out.println(img);
+                                img = new ImageView(ScrollingActivity.this);
+                                Picasso.with(getApplicationContext()).load(urlimgp).into(img);
+                                System.out.println("test");
                                 //img.setImageBitmap(image);
                                 //img.setBackground(new BitmapDrawable(getResources(), image));
                                 button.setText(test);
                                 button.setTextSize(20);
                                 button.setGravity(Gravity.CENTER);
-                                //layout.addView(img);
+                                layout.addView(img);
                                 layout.addView(button);
                                 if (i <= 20 ) {
                                     i++;
