@@ -12,6 +12,10 @@
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/lunala.png",
+        "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/lunala.png"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/abc_ratingbar_material.xml"
     },
@@ -314,6 +318,10 @@
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/aff.png",
         "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/aff.png"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/solgaleo.png",
+        "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/solgaleo.png"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
