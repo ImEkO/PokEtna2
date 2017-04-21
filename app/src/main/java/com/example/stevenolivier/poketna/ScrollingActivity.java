@@ -62,6 +62,7 @@ public class ScrollingActivity extends AppCompatActivity {
                             JSONArray arrayForms = (JSONArray) jsonObject.get("forms");
                             //Debug
                             System.out.println("POKEMON n°" + pokemon + " : " + arrayForms.getJSONObject(0).getString("name") + " -> " + arraySprites.getString("front_default"));
+                            //Envoie de données vers la page Description Pokémon
                             final String namePokemon = arrayForms.getJSONObject(0).getString("name");
                             final String urlImagepokemon = arraySprites.getString("front_default");
                             String types = "";
@@ -78,6 +79,7 @@ public class ScrollingActivity extends AppCompatActivity {
                             JSONArray arrayAbilitiesPokemon = (JSONArray) jsonObject.get("abilities");
                             for (int ability = 0; ability < arrayAbilitiesPokemon.length(); ability++) {
                                 JSONObject typeObject = (JSONObject) arrayAbilitiesPokemon.getJSONObject(ability).get("ability");
+                                System.out.println(typeObject);
                                 abilities = abilities + typeObject.getString("name");
                                 if (ability != arrayAbilitiesPokemon.length() - 1) {
                                     abilities = abilities + " / ";
