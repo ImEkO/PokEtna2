@@ -16,7 +16,7 @@ public class Mainvue extends AppCompatActivity {
         Button btnPokemons = (Button) findViewById(R.id.pokemon);
         Button btnBerries = (Button) findViewById(R.id.berry);
         Button btnItems = (Button) findViewById(R.id.item);
-
+        //new ScrollingActivity().getInfoPokemon();
         btnPokemons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

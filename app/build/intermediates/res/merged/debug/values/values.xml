@@ -2304,6 +2304,6 @@
     </style>
     <style name="newbuttonstyle" parent="@android:style/Widget.Button">
         <item name="android:layout_width">fill_parent</item>
-        <item name="android:textColor">#acd9e6</item>
+        <item name="android:textColor">#a70bda</item>
     </style>
 </resources>

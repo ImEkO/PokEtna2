@@ -13,12 +13,12 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="newbuttonstyle" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textColor">#a70bda</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="newbuttonstyle" parent="@android:style/Widget.Button">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:textColor">#acd9e6</item>
-    </style>
 </resources>
