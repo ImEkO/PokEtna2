@@ -4,19 +4,16 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-import org.json.JSONArray;
-
-public class testintent extends AppCompatActivity {
+public class Affpokemon extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_testintent);
+        setContentView(R.layout.activity_affpokemon);
 
         //Elements from layout
         TextView nom = (TextView) findViewById(R.id.name);
@@ -26,6 +23,7 @@ public class testintent extends AppCompatActivity {
         TextView types = (TextView) findViewById(R.id.type);
         TextView exp = (TextView) findViewById(R.id.exp);
         TextView abilites = (TextView) findViewById(R.id.abilites);
+        TextView stats = (TextView) findViewById(R.id.stats);
 
         //Get data from the preview page
         Intent intent = getIntent();
@@ -36,6 +34,7 @@ public class testintent extends AppCompatActivity {
         String typesPokemon = intent.getStringExtra("types");
         String expPokemon = intent.getStringExtra("exp");
         String abilitesPokemon = intent.getStringExtra("abilites");
+        String statsPokemon = intent.getStringExtra("stats");
 
         //Set data in the current page
         nom.setText(message);
@@ -44,6 +43,7 @@ public class testintent extends AppCompatActivity {
         poids.setText("Poids : " + poidsPokemon);
         types.setText("Type(s) : " + typesPokemon);
         exp.setText("Expérience : " + expPokemon);
-        abilites.setText("Abilités : " + abilites);
+        abilites.setText(abilitesPokemon);
+        stats.setText(statsPokemon);
     }
 }

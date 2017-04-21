@@ -1,12 +1,14 @@
 package com.example.stevenolivier.poketna;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -34,6 +36,13 @@ public class ScrollingActivity1 extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         layout = (LinearLayout) findViewById(R.id.layout1);
+        FloatingActionButton returnBtn = (FloatingActionButton) findViewById(R.id.fab);
+        returnBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ScrollingActivity1.this, Mainvue.class));
+            }
+        });
         getInfoBerry();
     }
 
@@ -54,9 +63,31 @@ public class ScrollingActivity1 extends AppCompatActivity {
                                 button = new Button(ScrollingActivity1.this, null, R.style.newbuttonstyle);
                                 image = new ImageButton(ScrollingActivity1.this, null, R.style.newbuttonstyle);
                                 Picasso.with(getApplicationContext()).load(urlImageBerry).resize(400, 400).into(image);
+                                final String nameitem = nameItem;
+                                final String urlimageberry = urlImageBerry;
                                 button.setText(nameItem);
                                 button.setTextSize(20);
                                 button.setGravity(Gravity.CENTER);
+                                button.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent(ScrollingActivity1.this, Affitems.class);
+                                        intent.putExtra("nom", nameitem);
+                                        intent.putExtra("image", urlimageberry);
+                                        startActivity(intent);
+                                    }
+
+                                });
+                                image.setOnClickListener(new View.OnClickListener() {
+                                    @Override
+                                    public void onClick(View v) {
+                                        Intent intent = new Intent(ScrollingActivity1.this, Affitems.class);
+                                        intent.putExtra("nom", nameitem);
+                                        intent.putExtra("image", urlimageberry);
+                                        startActivity(intent);
+                                    }
+
+                                });
                                 layout.addView(image);
                                 layout.addView(button);
                             }

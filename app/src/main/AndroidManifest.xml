@@ -30,7 +30,8 @@
             android:name=".ScrollingActivity1"
             android:label="@string/title_activity_scrolling1"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".testintent" />
+        <activity android:name=".Affpokemon" />
+        <activity android:name=".Affitems"></activity>
     </application>
 
 </manifest>

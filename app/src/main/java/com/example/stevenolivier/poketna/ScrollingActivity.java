@@ -3,14 +3,12 @@ package com.example.stevenolivier.poketna;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.android.volley.RequestQueue;
 import com.android.volley.Request;
@@ -49,6 +47,62 @@ public class ScrollingActivity extends AppCompatActivity {
         getInfoPokemon();
     }
 
+    protected String getPokemonTypes(JSONObject jsonObject) {
+        String types = "";
+        try {
+            JSONArray arrayTypesPokemon = (JSONArray) jsonObject.get("types");
+            for (int type = 0; type < arrayTypesPokemon.length(); type++) {
+                JSONObject typeObject = (JSONObject) arrayTypesPokemon.getJSONObject(type).get("type");
+                types = types + typeObject.getString("name");
+                if (type != arrayTypesPokemon.length() - 1) {
+                    types = types + " / ";
+                }
+            }
+        } catch (JSONException e) {
+            types = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (types);
+    }
+
+    protected String getPokemonAbilities(JSONObject jsonObject) {
+        String abilities = "";
+        try {
+            JSONArray arrayAbilitiesPokemon = (JSONArray) jsonObject.get("abilities");
+            for (int ability = 0; ability < arrayAbilitiesPokemon.length(); ability++) {
+                JSONObject typeObject = (JSONObject) arrayAbilitiesPokemon.getJSONObject(ability).get("ability");
+                abilities = abilities + typeObject.getString("name");
+                if (ability != arrayAbilitiesPokemon.length() - 1) {
+                    abilities = abilities + " / ";
+                }
+            }
+        } catch (JSONException e) {
+            abilities = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (abilities);
+    }
+
+    protected String getPokemonStats(JSONObject jsonObject) {
+        String stats = "";
+        try {
+            JSONArray arrayStatsPokemon = (JSONArray) jsonObject.get("stats");
+            for (int stat = 0; stat < arrayStatsPokemon.length(); stat++) {
+                JSONObject typeObject = (JSONObject) arrayStatsPokemon.getJSONObject(stat).get("stat");
+                String effortObject = arrayStatsPokemon.getJSONObject(stat).getString("effort");
+                String baseStatsObject = arrayStatsPokemon.getJSONObject(stat).getString("base_stat");
+                stats = stats + typeObject.getString("name") + "  " + effortObject + " / " + baseStatsObject;
+                if (stat != arrayStatsPokemon.length() - 1) {
+                    stats = stats + "\n\n";
+                }
+            }
+        } catch (JSONException e) {
+            stats = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (stats);
+    }
+
     protected void getInfoPokemon() {
         RequestQueue queue = Volley.newRequestQueue(this);
         urlPokemon = "http://pokeapi.co/api/v2/pokemon/" + pokemon;
@@ -62,30 +116,12 @@ public class ScrollingActivity extends AppCompatActivity {
                             JSONArray arrayForms = (JSONArray) jsonObject.get("forms");
                             //Debug
                             System.out.println("POKEMON n°" + pokemon + " : " + arrayForms.getJSONObject(0).getString("name") + " -> " + arraySprites.getString("front_default"));
-                            //Envoie de données vers la page Description Pokémon
+                            //Set des données pour l'envoi vers la page description du Pokémon
                             final String namePokemon = arrayForms.getJSONObject(0).getString("name");
                             final String urlImagepokemon = arraySprites.getString("front_default");
-                            String types = "";
-                            JSONArray arrayTypesPokemon = (JSONArray) jsonObject.get("types");
-                            for (int type = 0; type < arrayTypesPokemon.length(); type++) {
-                                JSONObject typeObject = (JSONObject) arrayTypesPokemon.getJSONObject(type).get("type");
-                                types = types + typeObject.getString("name");
-                                if (type != arrayTypesPokemon.length() - 1) {
-                                    types = types + " / ";
-                                }
-                            }
-                            final String typesPokemons = types;
-                            String abilities = "";
-                            JSONArray arrayAbilitiesPokemon = (JSONArray) jsonObject.get("abilities");
-                            for (int ability = 0; ability < arrayAbilitiesPokemon.length(); ability++) {
-                                JSONObject typeObject = (JSONObject) arrayAbilitiesPokemon.getJSONObject(ability).get("ability");
-                                System.out.println(typeObject);
-                                abilities = abilities + typeObject.getString("name");
-                                if (ability != arrayAbilitiesPokemon.length() - 1) {
-                                    abilities = abilities + " / ";
-                                }
-                            }
-                            final String abilitiesPokemons = abilities;
+                            final String typesPokemons = getPokemonTypes(jsonObject);
+                            final String abilitiesPokemon = getPokemonAbilities(jsonObject);
+                            final String statsPokemon = getPokemonStats(jsonObject);
                             final String weightPokemon = jsonObject.getString("weight");
                             final String heightPokemon = jsonObject.getString("height");
                             final String expPokemon = jsonObject.getString("base_experience");
@@ -102,14 +138,15 @@ public class ScrollingActivity extends AppCompatActivity {
                             button.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
-                                    Intent intent = new Intent(ScrollingActivity.this, testintent.class);
+                                    Intent intent = new Intent(ScrollingActivity.this, Affpokemon.class);
                                     intent.putExtra("nom", namePokemon);
                                     intent.putExtra("image", urlImagepokemon);
                                     intent.putExtra("types", typesPokemons);
                                     intent.putExtra("poids", weightPokemon);
                                     intent.putExtra("taille", heightPokemon);
                                     intent.putExtra("exp", expPokemon);
-                                    intent.putExtra("abilites", abilitiesPokemons);
+                                    intent.putExtra("abilites", abilitiesPokemon);
+                                    intent.putExtra("stats", statsPokemon);
                                     startActivity(intent);
                                 }
 
@@ -117,14 +154,15 @@ public class ScrollingActivity extends AppCompatActivity {
                             image.setOnClickListener(new View.OnClickListener() {
                                 @Override
                                 public void onClick(View v) {
-                                    Intent intent = new Intent(ScrollingActivity.this, testintent.class);
+                                    Intent intent = new Intent(ScrollingActivity.this, Affpokemon.class);
                                     intent.putExtra("nom", namePokemon);
                                     intent.putExtra("image", urlImagepokemon);
                                     intent.putExtra("types", typesPokemons);
                                     intent.putExtra("poids", weightPokemon);
                                     intent.putExtra("taille", heightPokemon);
                                     intent.putExtra("exp", expPokemon);
-                                    intent.putExtra("abilites", abilitiesPokemons);
+                                    intent.putExtra("abilites", abilitiesPokemon);
+                                    intent.putExtra("stats", statsPokemon);
                                     startActivity(intent);
                                 }
 
