@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Apr 21 09:54:12 CEST 2017
+#Fri Apr 21 10:46:51 CEST 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_in.xml
