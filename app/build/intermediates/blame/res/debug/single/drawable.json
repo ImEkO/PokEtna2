@@ -44,12 +44,12 @@
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -76,16 +76,20 @@
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/caratroc.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/caratroc.png"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/aff.png",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/aff.png"
     },
     {
-        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/ultraball.png",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/ultraball.png"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -152,12 +156,12 @@
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/notification_bg.xml"
-    },
-    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
@@ -170,6 +174,10 @@
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/pokemontitle.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/pokemontitle.png"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
@@ -220,6 +228,10 @@
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/boutonpoke.png"
     },
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/pikachu.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/pikachu.png"
+    },
+    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/pokeball.png",
         "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/pokeball.png"
     },
@@ -256,6 +268,10 @@
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/notification_bg_low.xml"
     },
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/home.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/home.png"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/stevenolivier/.android/build-cache/4a2084d0301b27f0bc99c8430f5507578420de3c/output/res/drawable/design_snackbar_background.xml"
     },
@@ -274,6 +290,10 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/aff2.jpg",
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/drawable/aff2.jpg"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/solgaleo.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/solgaleo.png"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/egg.png",
@@ -298,6 +318,10 @@
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/rowlet.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/rowlet.png"
     },
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -344,6 +368,10 @@
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/lunala.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/lunala.png"
+    },
+    {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/Users/stevenolivier/.android/build-cache/6fd7ee709248c26240dc5f86508f4b41ae112ef5/output/res/drawable/abc_tab_indicator_material.xml"
     },
@@ -362,6 +390,10 @@
     {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/juliettequ/.android/build-cache/883340947cb064dab44f84496262ecd11b233b48/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/drawable/boutonpoke.png",
+        "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/drawable/boutonpoke.png"
     },
     {
         "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",

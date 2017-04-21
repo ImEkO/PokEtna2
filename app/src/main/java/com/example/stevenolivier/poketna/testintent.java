@@ -9,22 +9,41 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
-public class testintent extends AppCompatActivity {
+import org.json.JSONArray;
 
-    protected LinearLayout layout;
+public class testintent extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_testintent);
+
+        //Elements from layout
+        TextView nom = (TextView) findViewById(R.id.name);
+        ImageView image = (ImageView) findViewById(R.id.image);
+        TextView taille = (TextView) findViewById(R.id.taille);
+        TextView poids = (TextView) findViewById(R.id.poids);
+        TextView types = (TextView) findViewById(R.id.type);
+        TextView exp = (TextView) findViewById(R.id.exp);
+        TextView abilites = (TextView) findViewById(R.id.abilites);
+
+        //Get data from the preview page
         Intent intent = getIntent();
-        layout = (LinearLayout) findViewById(R.id.layout);
         String message = intent.getStringExtra("nom");
         String urlImagePokemon = intent.getStringExtra("image");
-        TextView textView = (TextView) findViewById(R.id.test);
-        textView.setText(message);
-        ImageView image = new ImageView(this);
-        Picasso.with(getApplicationContext()).load(urlImagePokemon).resize(1000, 1000).into(image);
-        layout.addView(image);
+        String taillePokemon = intent.getStringExtra("taille");
+        String poidsPokemon = intent.getStringExtra("poids");
+        String typesPokemon = intent.getStringExtra("types");
+        String expPokemon = intent.getStringExtra("exp");
+        String abilitesPokemon = intent.getStringExtra("abilites");
+
+        //Set data in the current page
+        nom.setText(message);
+        Picasso.with(getApplicationContext()).load(urlImagePokemon).into(image);
+        taille.setText("Taille : " + taillePokemon);
+        poids.setText("Poids : " + poidsPokemon);
+        types.setText("Type(s) : " + typesPokemon);
+        exp.setText("Expérience : " + expPokemon);
+        abilites.setText("Abilités : " + abilites);
     }
 }

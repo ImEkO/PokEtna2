@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.android.volley.Request;
@@ -19,7 +20,7 @@ import org.json.JSONObject;
 
 public class ScrollingActivity2 extends AppCompatActivity {
 
-    protected ImageView image;
+    protected ImageButton image;
     protected Button button;
     protected LinearLayout layout;
     protected String urlImageItem;
@@ -50,8 +51,8 @@ public class ScrollingActivity2 extends AppCompatActivity {
                             System.out.println("ITEM n°" + item + " : " + nameItem + " -> " + arraySprites.getString("default"));
                             if (!jsonObject.getString("name").contains("-berry")) {
                                 urlImageItem = arraySprites.getString("default");
-                                button = new Button(ScrollingActivity2.this);
-                                image = new ImageView(ScrollingActivity2.this);
+                                button = new Button(ScrollingActivity2.this, null, R.style.newbuttonstyle);
+                                image = new ImageButton(ScrollingActivity2.this, null, R.style.newbuttonstyle);
                                 Picasso.with(getApplicationContext()).load(urlImageItem).resize(400, 400).into(image);
                                 button.setText(nameItem);
                                 button.setTextSize(20);
