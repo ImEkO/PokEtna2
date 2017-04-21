@@ -22,7 +22,7 @@ public class Affpokemon extends AppCompatActivity {
         TextView poids = (TextView) findViewById(R.id.poids);
         TextView types = (TextView) findViewById(R.id.type);
         TextView exp = (TextView) findViewById(R.id.exp);
-        TextView abilites = (TextView) findViewById(R.id.abilites);
+        TextView abilites = (TextView) findViewById(R.id.utilisation);
         TextView stats = (TextView) findViewById(R.id.stats);
 
         //Get data from the preview page

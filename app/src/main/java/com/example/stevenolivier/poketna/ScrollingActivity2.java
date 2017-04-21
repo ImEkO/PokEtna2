@@ -9,7 +9,6 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -18,6 +17,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.squareup.picasso.Picasso;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -47,6 +47,65 @@ public class ScrollingActivity2 extends AppCompatActivity {
         getInfoItem();
     }
 
+    protected String getItemCategory(JSONObject jsonObject) {
+        String category;
+        try {
+            JSONObject arrayCategoryItem = (JSONObject) jsonObject.get("category");
+            category = arrayCategoryItem.getString("name").replace("-", " ");
+        } catch (JSONException e) {
+            category = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (category);
+    }
+
+    protected String getItemCost(JSONObject jsonObject) {
+        String cost;
+        try {
+            cost = jsonObject.getString("cost");
+        } catch (JSONException e) {
+            cost = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (cost);
+    }
+
+    protected String getItemUtilisation(JSONObject jsonObject) {
+        String utilisation = "";
+        try {
+            JSONArray arrayAttributesItem = (JSONArray) jsonObject.get("attributes");
+            for (int utility = 0; utility < arrayAttributesItem.length(); utility++) {
+                JSONObject typeObject = (JSONObject) arrayAttributesItem.getJSONObject(utility);
+                utilisation = utilisation + typeObject.getString("name");
+                if (utility != arrayAttributesItem.length() - 1) {
+                    utilisation = utilisation + " / ";
+                }
+            }
+        } catch (JSONException e) {
+            utilisation = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (utilisation);
+    }
+
+    protected String getItemDescription(JSONObject jsonObject) {
+        String description = "\n";
+        try {
+            JSONArray arrayDescritpionsItem = (JSONArray) jsonObject.get("effect_entries");
+            for (int utility = 0; utility < arrayDescritpionsItem.length(); utility++) {
+                JSONObject typeObject = (JSONObject) arrayDescritpionsItem.getJSONObject(utility);
+                description = description + typeObject.getString("effect");
+                if (utility != arrayDescritpionsItem.length() - 1) {
+                    description = description + "\n\n";
+                }
+            }
+        } catch (JSONException e) {
+            description = "Pas d'informations";
+            e.printStackTrace();
+        }
+        return (description);
+    }
+
     protected void getInfoItem() {
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         urlItem = "http://pokeapi.co/api/v2/item/" + item;
@@ -66,6 +125,10 @@ public class ScrollingActivity2 extends AppCompatActivity {
                                 Picasso.with(getApplicationContext()).load(urlImageItem).resize(400, 400).into(image);
                                 final String nameitem = nameItem;
                                 final String urlimageitem = urlImageItem;
+                                final String categoryItem = getItemCategory(jsonObject);
+                                final String costItem = getItemCost(jsonObject);
+                                final String utilisationItem = getItemUtilisation(jsonObject);
+                                final String descriptionItem = getItemDescription(jsonObject);
                                 button.setText(nameItem);
                                 button.setTextSize(20);
                                 button.setGravity(Gravity.CENTER);
@@ -74,7 +137,11 @@ public class ScrollingActivity2 extends AppCompatActivity {
                                     public void onClick(View v) {
                                         Intent intent = new Intent(ScrollingActivity2.this, Affitems.class);
                                         intent.putExtra("nom", nameitem);
-                                        intent.putExtra("image", urlimageitem   );
+                                        intent.putExtra("image", urlimageitem);
+                                        intent.putExtra("category", categoryItem);
+                                        intent.putExtra("cost", costItem);
+                                        intent.putExtra("utilisation", utilisationItem.replace("-", " "));
+                                        intent.putExtra("description", descriptionItem.replace(":", ""));
                                         startActivity(intent);
                                     }
 
@@ -85,6 +152,10 @@ public class ScrollingActivity2 extends AppCompatActivity {
                                         Intent intent = new Intent(ScrollingActivity2.this, Affitems.class);
                                         intent.putExtra("nom", nameitem);
                                         intent.putExtra("image", urlimageitem);
+                                        intent.putExtra("category", categoryItem);
+                                        intent.putExtra("cost", costItem);
+                                        intent.putExtra("utilisation", utilisationItem.replace("-", " "));
+                                        intent.putExtra("description", descriptionItem.replace(":", ""));
                                         startActivity(intent);
                                     }
 

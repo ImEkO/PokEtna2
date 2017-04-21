@@ -143,7 +143,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/statsText"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="254dp"
@@ -161,7 +161,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/abilites"
+        android:id="@+id/utilisation"
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="215dp"
