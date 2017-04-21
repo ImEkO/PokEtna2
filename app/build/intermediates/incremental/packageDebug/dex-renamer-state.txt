@@ -1,4 +1,4 @@
-#Fri Apr 21 15:26:03 CEST 2017
-base.0=/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Fri Apr 21 15:34:19 CEST 2017
+base.0=/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

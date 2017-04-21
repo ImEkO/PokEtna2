@@ -36,6 +36,8 @@
             android:name="com.example.stevenolivier.poketna.ScrollingActivity1"
             android:label="@string/title_activity_scrolling1"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.stevenolivier.poketna.Affpokemon" />
+        <activity android:name="com.example.stevenolivier.poketna.Affitems" />
     </application>
 
 </manifest>
