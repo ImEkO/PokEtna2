@@ -3406,8 +3406,9 @@ containing a value of this type.
         public static final int menu_scrolling_activity3=0x7f0e0003;
     }
     public static final class mipmap {
-        public static final int ic_launcher=0x7f030000;
-        public static final int ic_launcher_round=0x7f030001;
+        public static final int hyperball=0x7f030000;
+        public static final int ic_launcher=0x7f030001;
+        public static final int ic_launcher_round=0x7f030002;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;

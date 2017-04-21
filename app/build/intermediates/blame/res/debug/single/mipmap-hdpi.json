@@ -12,6 +12,10 @@
         "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/build/intermediates/res/merged/debug/mipmap-hdpi/hyperball.png",
+        "source": "/Users/stevenolivier/AndroidStudioProjects/PokEtna/app/src/main/res/mipmap-hdpi/hyperball.png"
+    },
+    {
         "merged": "/Users/juliettequ/Desktop/PokEtna2/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
         "source": "/Users/juliettequ/Desktop/PokEtna2/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
